@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+models/*.pt
+models/*.model
+models/*.kv
+models/*.npy
+wandb/
+tmp_sweep/
+.ipynb_checkpoints/

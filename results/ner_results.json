@@ -1,0 +1,8 @@
+[
+    {
+        "method": "rule_based",
+        "precision": 0.5378,
+        "recall": 0.6225,
+        "f1": 0.5771
+    }
+]

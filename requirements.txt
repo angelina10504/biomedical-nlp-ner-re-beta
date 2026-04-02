@@ -1,0 +1,12 @@
+torch
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+sklearn-crfsuite
+gensim
+datasets
+seqeval
+jupyter
+ipykernel
