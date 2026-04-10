@@ -9,3 +9,4 @@ models/*.npy
 wandb/
 tmp_sweep/
 .ipynb_checkpoints/
+data/

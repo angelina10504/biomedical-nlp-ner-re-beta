@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "method": "bilstm_attention",
+    "task": "DDI Relation Extraction",
+    "macro_f1": 0.3733,
+    "weighted_f1": 0.6979,
+    "per_class_f1": {
+      "advise": 0.3243,
+      "effect": 0.3831,
+      "int": 0.0606,
+      "mechanism": 0.3234,
+      "no-relation": 0.775
+    }
+  }
+]

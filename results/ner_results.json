@@ -1,8 +1,26 @@
 [
-    {
-        "method": "rule_based",
-        "precision": 0.5378,
-        "recall": 0.6225,
-        "f1": 0.5771
-    }
+  {
+    "method": "rule_based",
+    "precision": 0.5378,
+    "recall": 0.6225,
+    "f1": 0.5771
+  },
+  {
+    "method": "crf",
+    "precision": 0.8347,
+    "recall": 0.7365,
+    "f1": 0.7825
+  },
+  {
+    "method": "bilstm",
+    "precision": 0.6874,
+    "recall": 0.6781,
+    "f1": 0.6827
+  },
+  {
+    "method": "bilstm_crf",
+    "precision": 0.8031,
+    "recall": 0.7059,
+    "f1": 0.7514
+  }
 ]
