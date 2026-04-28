@@ -10,3 +10,5 @@ datasets
 seqeval
 jupyter
 ipykernel
+streamlit
+altair
