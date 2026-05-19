@@ -16,51 +16,6 @@ Models are developed progressively, from simple rule-based baselines to deep lea
 
 ---
 
-## Project Structure
-
-```
-biomedical-nlp-project-beta/
-├── data/
-│   ├── ncbi_train.csv          # NCBI Disease — train split
-│   ├── ncbi_val.csv            # NCBI Disease — validation split
-│   ├── ncbi_test.csv           # NCBI Disease — test split
-│   ├── ddi_train.csv           # DDI Corpus — train split
-│   └── ddi_test.csv            # DDI Corpus — test split
-│
-├── models/
-│   ├── word2idx.json           # Vocabulary index (word → int)
-│   ├── embedding_matrix.npy    # Pre-trained Word2Vec embeddings (200-dim)
-│   ├── bilstm_ner.pt           # BiLSTM NER checkpoint
-│   ├── bilstm_crf_ner.pt       # BiLSTM+CRF NER checkpoint
-│   ├── bilstm_attention_re.pt  # BiLSTM+Attention RE checkpoint
-│   └── cnn_re.pt               # TextCNN RE checkpoint
-│
-├── results/
-│   ├── ner_results.json        # NER comparison table
-│   ├── re_results.json         # RE comparison table
-│   ├── 05_training_history.json
-│   ├── 06_training_history.json
-│   └── *.png                   # Generated figures
-│
-└── notebooks/
-    ├── 01_data_exploration.ipynb
-    ├── 02_rule_based_ner.ipynb
-    ├── 03_crf_ner.ipynb
-    ├── 04_word2vec_embeddings.ipynb
-    ├── 05_bilstm_ner.ipynb
-    ├── 05_figures.ipynb        # ROC/AUC, Precision/Recall, Validation Curve for BiLSTM NER
-    ├── 06_bilstm_crf_ner.ipynb
-    ├── 06_figures.ipynb        # ROC/AUC, Precision/Recall, Validation Curve for BiLSTM+CRF NER
-    ├── 07_ner_error_analysis.ipynb
-    ├── 08_classical_ml_re.ipynb
-    ├── 09_bilstm_attention_re.ipynb
-    ├── 10_cnn_re.ipynb
-    ├── 11_re_error_analysis.ipynb
-    └── 12_final_results.ipynb
-```
-
----
-
 ## Datasets
 
 | Dataset | Task | Size |
